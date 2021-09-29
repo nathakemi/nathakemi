@@ -1,0 +1,20 @@
+DADOS = [['A', ['1', '2'], ['3', '4'], ['3', '6']], ['C', ['2', '3']], ['B', ['4', '5']]]
+i = 0
+ii = 1
+reserva = input()
+area = reserva[38:]
+pessoas = reserva[20]
+pessoas = int(pessoas)
+while i < len(DADOS):
+    if DADOS[i][0] == area:
+        # print('print dados:', DADOS[i][0])
+        # index = i
+        CONFIGURACAO = DADOS[i][1:]
+        print(CONFIGURACAO)
+        k = 0
+        while k < len(CONFIGURACAO):
+            MESA = [CONFIGURACAO[k][1]]
+            print(MESA)
+        k = k + 1
+
+i = i + 1
